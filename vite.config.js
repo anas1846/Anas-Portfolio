@@ -20,4 +20,7 @@ const siteTags = () => ({
   },
 });
 
-export default defineConfig({ plugins: [react(), siteTags()],  base: '/anas-portfolio/', });
+export default defineConfig({
+  plugins: [react(), siteTags()],
+  base: '/Anas-Portfolio/',
+});
